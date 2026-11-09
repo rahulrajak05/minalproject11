@@ -1,0 +1,13 @@
+.auth-error {
+  margin: 14px 0 0;
+  padding: 11px 12px;
+  border: 1px solid color-mix(in srgb, var(--red) 28%, transparent);
+  border-radius: 10px;
+  color: var(--red);
+  background: color-mix(in srgb, var(--red) 7%, var(--surface));
+  font-size: 13px;
+}
+
+.auth-error[hidden] {
+  display: none;
+}
